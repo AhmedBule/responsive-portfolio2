@@ -18,19 +18,19 @@ html, body {
 }
 
 
-/* selectors for all HTML tags across all pages */
+/*  from here on, the selectors are for the HTML pages.*/
 body {
 	background: url('../images/subtle-background.png') purple;
 	margin: 0px;
 	padding: 0px;
 
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: pink;
 }
 
 a {
-	color: blue;
+	color: black;
 	text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ h3 {
 }
 
 
-/* selectors for header content */
+/* this is header section */
 header {
 	background: purple;
 	border-bottom: 2px solid #cccccc;
@@ -78,7 +78,7 @@ header {
 }
 
 
-/* selectors for nav content */
+/* this is the nav section */
 nav {
 	height: 20px;
 	display: flex;
@@ -159,7 +159,7 @@ aside img:hover {
 }
 
 
-/* selectors for footer content */
+/* this is the footer section */
 footer {
 	background: #666666;
 	border-top: 9px solid #4aaaa5;
@@ -183,9 +183,9 @@ footer {
 }
 
 
-/* selectors unique to portfolio.html*/
+/* the selector here is specifically for portfolio.html*/
 #portfolio_pic_block {
-	width: 588px;
+	width: 480px;
 	margin-top: 40px;
 	display: flex;
 	justify-content: space-between;
@@ -196,10 +196,6 @@ footer {
 	height: 205px;
 	margin-bottom: 56px;
 	position: relative;
-}
-
-.portfolio_pic:last-child {
-	margin-bottom: 0px;
 }
 
 .portfolio_pic_text_block {
@@ -223,7 +219,7 @@ footer {
 }
 
 
-/* selectors unique to contact.html */
+/* the selectors below is specifically for contact.html */
 form {
 	margin-top: 27px;
 }
@@ -239,7 +235,7 @@ input, textarea {
 }
 
 input[type=submit] {
-	background: #4aaaa5;
+	background:lightcoral;
 	border: 0px;
 	outline: none;
 	width: auto;
@@ -247,7 +243,7 @@ input[type=submit] {
 	padding: 10px 30px;
 
 	font-size: 18px;
-	color: white;
+	color: blue;
 
 	transition: all 0.2s linear;
 }
