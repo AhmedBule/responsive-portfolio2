@@ -86,7 +86,7 @@ nav {
 }
 
 .nav_link {
-	background: white;
+	background:black;
 	height: 100%;
 	padding: 0px 15px;
 
@@ -104,7 +104,7 @@ nav {
 }
 
 
-/* selectors for main content (section + aside) */
+/*  the selectors below are for the main content. */
 #main_block {
 	width: 960px;
 	margin: 38px auto;
@@ -176,7 +176,7 @@ footer {
 }
 
 
-/* selectors unique to index.html*/
+/* The selector here is for to index.html*/
 #profile_image {
 	margin: 10px 25px 10px 0px;
 	float: left;
