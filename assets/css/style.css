@@ -51,6 +51,7 @@ header {
 	background: purple;
 	border-bottom: 2px solid #cccccc;
 	max-width: 100%;
+	display: flex;
 }
 
 #header_block {
@@ -80,6 +81,7 @@ header {
 
 /* this is the nav section */
 nav {
+	display: flex;
 	height: 20px;
 	display: flex;
 	justify-content: flex-end;
@@ -88,8 +90,9 @@ nav {
 .nav_link {
 	background:black;
 	height: 100%;
+	margin: 0em;
 	padding: 0px 15px;
-
+	display: flex;
 	transition: all 0.2s linear;
 }
 
@@ -97,10 +100,11 @@ nav {
 	background: #efefef;
 }
 
-.nav_horizontal_bar {
+.nav_vertical_bar {
 	background: #efefef;
 	width: 2px; 
 	height: 100%;
+	display: flex;
 }
 
 
